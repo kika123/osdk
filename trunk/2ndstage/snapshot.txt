@@ -1,0 +1,25 @@
+  Booting 'Kernel'
+
+kernel /boot/2ndstage.dll    # Edit it to the filename of your kernel.
+   [Multiboot-kludge, loadaddr=0x101000, text-and-data=0x100f, bss=0x0, symtab=
+0xb8, strtab=0xfffffffc(bad), entry=0x101030]
+chainloader        +1
+
+Error 13: Invalid or unsupported executable format
+
+Press any key to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
