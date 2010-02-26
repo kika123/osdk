@@ -1,0 +1,47 @@
+ 2ndstage
+
+ Timestamp is 4b87d70a (Fri Feb 26 09:13:30 2010)
+
+ Preferred load address is 00100000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000049aH .text                   CODE
+ 0002:00000000 0000000cH .rdata                  DATA
+ 0002:00000010 0000007cH .edata                  DATA
+ 0003:00000000 00000010H .data                   DATA
+ 0003:00000010 0000000cH .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       ?__multiboot_entry__@@YAXXZ 00101000 f   2ndstage.obj
+ 0001:00000050       ?mainCRTStartup@@YAXXZ     00101050 f   2ndstage.obj
+ 0001:00000080       ?memcpy@@YAPAEPAEPBEH@Z    00101080 f   2ndstage.obj
+ 0001:000000d0       ?memsetw@@YAPAGPAGGH@Z     001010d0 f   2ndstage.obj
+ 0001:00000110       ?memset@@YAPAXPAXDI@Z      00101110 f   2ndstage.obj
+ 0001:00000150       ?inportb@@YAEG@Z           00101150 f   2ndstage.obj
+ 0001:00000170       ?outportb@@YAXGE@Z         00101170 f   2ndstage.obj
+ 0001:00000180       ?strlen@@YAHPAD@Z          00101180 f   2ndstage.obj
+ 0001:000001c0       _main                      001011c0 f   2ndstage.obj
+ 0001:00000200       ?WriteCharacter@@YAXEHH@Z  00101200 f   screen.obj
+ 0001:00000240       ?scroll@@YAXXZ             00101240 f   screen.obj
+ 0001:000002d0       ?move_csr@@YAXXZ           001012d0 f   screen.obj
+ 0001:00000340       ?cls@@YAXXZ                00101340 f   screen.obj
+ 0001:000003b0       ?WriteString@@YAXPADII@Z   001013b0 f   screen.obj
+ 0001:00000400       ?Printf@@YAXPAD@Z          00101400 f   screen.obj
+ 0001:00000470       ?setupScreen@@YAXPAE@Z     00101470 f   screen.obj
+ 0001:00000480       ?settextcolor@@YAXEE@Z     00101480 f   screen.obj
+ 0003:00000000       ?foreColor@@3EA            00103000     screen.obj
+ 0003:00000001       ?backColor@@3EA            00103001     screen.obj
+ 0003:00000004       ?screenWidth@@3HA          00103004     screen.obj
+ 0003:00000008       ?screenHeight@@3HA         00103008     screen.obj
+ 0003:0000000c       ?attrib@@3HA               0010300c     screen.obj
+ 0003:00000010       ?vmem@@3PAEA               00103010     screen.obj
+ 0003:00000014       ?curserX@@3HA              00103014     screen.obj
+ 0003:00000018       ?curserY@@3HA              00103018     screen.obj
+
+ entry point at        0000:00000000
+
+ Static symbols
+
