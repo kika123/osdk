@@ -1,0 +1,3 @@
+the Operating System Development Kit is designed to be a starting point for osdev. its intent is to help Jump Start Osdev as far as it can yet be flexible to become whatever you wish it to become. when complete the OSDK should have a full Prebuilt libc as well as full C and C++ support. it is based off of VS2008 and designed to be as easy as possible to build.
+
+If you would like to help with this project or you have any suggestions please let me know and i can add you to the Dev Team. i am fairly inexperienced in C++ and would love to have some help with this project
